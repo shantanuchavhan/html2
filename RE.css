@@ -1,0 +1,68 @@
+#cardsection{
+    display: flex;
+    
+    
+}
+
+#cardsection div{
+    width: 25%;
+    height: 210px;
+    overflow: hidden;
+    
+
+}
+#cardsection div img{
+    width: 100%;
+}
+
+#cardsection div p{
+    padding-left: 10px;
+    position: relative;
+    top: -70px;
+    color: white;
+
+
+}
+
+#cardsection div img{
+    
+    cursor: pointer;
+    
+}
+
+#cardsection div img:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transition: transform .2s ease-in-out; /* Animation */
+  }
+
+.headersection{
+    background-color:#212121;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+.headersection ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+.abc:hover{
+    color: red;
+    cursor: pointer;
+
+}
+
+
+#slidersection{
+    display: flex;
+}
+
+
+#carouselExampleSlidesOnly .carousel-inner img{
+    width: 30%;
+    height: 300px;
+}
